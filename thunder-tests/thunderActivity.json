@@ -1,0 +1,77 @@
+[
+  {
+    "_id": "926237d1-8fd1-4e4b-ae2e-2cb6c7c3ced6",
+    "colId": "history",
+    "containerId": "",
+    "name": "Create User",
+    "url": "{{baseURL}}/users",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-16T15:28:09.912Z",
+    "modified": "2022-06-16T19:37:24.299Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"Ique3\",\n    \"username\": \"ique3\",\n    \"password\": \"1234\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "202d4460-f7e2-44a9-9969-e89602288c15",
+    "colId": "history",
+    "containerId": "",
+    "name": "login user",
+    "url": "{{baseURL}}/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-16T16:49:47.593Z",
+    "modified": "2022-06-16T19:42:01.578Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"username\": \"iquecode@gmail.com\",\n    \"password\": \"1234\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d2d6bc47-efdd-4e4b-9c5a-794f0f63406f",
+    "colId": "history",
+    "containerId": "",
+    "name": "Courses",
+    "url": "{{baseURL}}/courses",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-06-16T16:54:36.890Z",
+    "modified": "2022-06-16T19:23:51.693Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTU0MDczNzQsImV4cCI6MTY1NTQwNzM5NCwic3ViIjoiNjliNDk2YjItMTgxNS00ZWQxLTk5M2UtOWM5ODM5NzBhOWY4In0.fzW9DpnF9Z-1KTOecPHZh_QOVGbvm6CxPDFsqEF5qTo"
+    },
+    "tests": []
+  },
+  {
+    "_id": "708b8690-1ba5-4f1c-a779-5c28d6293b7f",
+    "colId": "history",
+    "containerId": "",
+    "name": "Refresh Token",
+    "url": "{{baseURL}}/refresh-token",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-16T18:47:09.470Z",
+    "modified": "2022-06-16T19:42:24.632Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"refresh_token\": \"a5454efb-d327-4780-b964-e783cd5bf1f2\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

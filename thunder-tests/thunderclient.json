@@ -1,0 +1,77 @@
+[
+  {
+    "_id": "575b68c4-3961-4094-9547-45827ce259e7",
+    "colId": "b8fc496f-2237-4f74-91a5-dae335d8bf76",
+    "containerId": "",
+    "name": "Create User",
+    "url": "{{baseURL}}/users",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-06-16T15:49:53.750Z",
+    "modified": "2022-06-16T15:49:53.750Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"Ique\",\n    \"username\": \"iquecode@gmail.com\",\n    \"password\": \"1234\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a616ff65-643a-4edc-9905-ce6c82cbca98",
+    "colId": "b8fc496f-2237-4f74-91a5-dae335d8bf76",
+    "containerId": "",
+    "name": "login user",
+    "url": "{{baseURL}}/login",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-06-16T16:50:56.196Z",
+    "modified": "2022-06-16T16:50:56.196Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"username\": \"iquecode@gmail.com\",\n    \"password\": \"1234\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "cee8d54f-d6cc-4c3c-814c-dc535018c326",
+    "colId": "b8fc496f-2237-4f74-91a5-dae335d8bf76",
+    "containerId": "",
+    "name": "Courses",
+    "url": "{{baseURL}}/courses",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-06-16T18:45:18.576Z",
+    "modified": "2022-06-16T18:45:18.576Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTUzOTk0ODQsImV4cCI6MTY1NTM5OTUwNCwic3ViIjoiMTM5NjhkZWMtYjNmNy00ZGQ3LTllNWEtNTI0ODM1MTQ5ZDNhIn0.Yi4nsLMZGP6dgGyDOLUW4vL61_py5hlE25AIG9CLiUA"
+    },
+    "tests": []
+  },
+  {
+    "_id": "6118f81e-9135-43db-8755-d4f6b09c8b2c",
+    "colId": "b8fc496f-2237-4f74-91a5-dae335d8bf76",
+    "containerId": "",
+    "name": "Refresh Token",
+    "url": "{{baseURL}}/refresh-token",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-06-16T18:48:03.134Z",
+    "modified": "2022-06-16T18:48:03.134Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"refresh_token\": \"b5233ee8-5dbc-4236-8f42-444ab3cd38af\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
